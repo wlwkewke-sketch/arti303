@@ -13,4 +13,3 @@ def test_clean_name_whitespace():
 def test_clean_name_capitalisation():
     assert text_utils.clean_name("FAISAL ALHARBI") == "Faisal Alharbi"
     assert text_utils.clean_name("lama") == "Lama"
-
